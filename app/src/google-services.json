@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "17515233759",
+    "firebase_url": "https://sherehe-b8c87.firebaseio.com",
+    "project_id": "sherehe-b8c87",
+    "storage_bucket": "sherehe-b8c87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17515233759:android:df0cbdd122e4b8d1",
+        "android_client_info": {
+          "package_name": "com.example.mathew.sherehe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17515233759-pgq138hi94c5hkggj90uccd7pk12neci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgp0y8Gst_EAReZV8lJXY5NZBuPDK3edw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

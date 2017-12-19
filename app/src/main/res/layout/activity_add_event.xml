@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mathew.sherehe.AddEvent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Event type"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/event_type"
+            android:layout_gravity="center"
+            android:entries="@array/events"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/event_Name"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/text"
+        android:padding="8dp"
+        android:hint="Event Name"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/event_location"
+        android:layout_width="match_parent"
+        android:background="@drawable/text"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:hint="Event Location"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/event_time"
+        android:background="@drawable/text"
+        android:layout_marginTop="16dp"
+        android:hint="Event Time"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:background="@drawable/button_layout"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:text="Add Event"
+        android:id="@+id/add_event"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

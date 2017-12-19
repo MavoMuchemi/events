@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "870235380869",
+    "firebase_url": "https://sherehe-af56a.firebaseio.com",
+    "project_id": "sherehe-af56a",
+    "storage_bucket": "sherehe-af56a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870235380869:android:df0cbdd122e4b8d1",
+        "android_client_info": {
+          "package_name": "com.example.mathew.sherehe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870235380869-r3877e1s7bnspb2cat4g1tbjeg2r12pr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mathew.sherehe",
+            "certificate_hash": "568319796d5d0dd26252802c9f8b71940609e53b"
+          }
+        },
+        {
+          "client_id": "870235380869-je7r5cpddbtii11rj36mi88045pq9bva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiFbVS4zj8x8h9psKkDi-ayO04UxDBScI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870235380869-je7r5cpddbtii11rj36mi88045pq9bva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
